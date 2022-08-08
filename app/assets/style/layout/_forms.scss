@@ -1,0 +1,12 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: $spacer*4;
+    label {
+        margin-bottom: $spacer*2;
+    }
+    input,textarea {
+        padding: 6px 12px;
+        background: $secondary;
+    }
+}

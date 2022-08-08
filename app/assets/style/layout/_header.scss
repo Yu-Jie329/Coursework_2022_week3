@@ -1,0 +1,73 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    h1 a {
+        background-image: url("../images/logo-white.png");
+        background-size: contain;
+        width: 80px;
+        height: 48px;
+        display: block;
+        @include hide-text;
+    }
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-right: -32px;
+    @include mobile {
+        display: block;
+        max-height: 0px;
+        overflow: hidden;
+        transition: max-height 2.3s;
+        margin-top: 1px;
+        position: absolute;
+        z-index: 100;
+        top: 80px;
+        left: 0;
+        right: 0;
+        background: $danger;
+    }
+    li {
+        @include mobile {
+            text-align: center;
+            border-bottom: 1px dashed $secondary;
+        }
+    }
+    a {
+        display: block;
+        padding: 30px 32px;
+        &:hover {
+            color: $warning;
+        }
+        @include mobile {
+            padding: 12px;
+            transition: all 0.2s;
+            &:hover {
+                background: $primary;
+                color: $white;
+            }
+        }
+    }
+  }
+  .showmenu {
+    display: none;
+    @include mobile {
+        display: block;
+        margin: 1em;
+    }
+  }
+  .menu-show .menu{
+    @include mobile {
+        max-height: 500px;
+    }
+  }
+
+
+
+
+
+
+

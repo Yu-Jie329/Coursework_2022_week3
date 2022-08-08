@@ -1,0 +1,68 @@
+//index
+.banner {
+    background: url("../images/home-header.png") center center/cover;
+    @include mobile {
+        background: url("../images/home-header-sm.png") center center/cover;
+    }
+}
+.banner-inner {
+    height: 787px;
+    text-align: right;
+    @include mobile {
+        height: 396px;
+    }
+}
+.banner-design { 
+    background: url("../images/bg.png") center center/cover;
+}
+
+//色塊
+.colorBlock {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    &-brown-200 {
+        background: $brown-200;
+    }
+    &-brown-100 {
+        background: $brown-100;
+    }
+}
+
+// pagination
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+.page-item { 
+    border: 1px solid #555555;
+}
+.page-link { 
+    padding: 12px 16px;
+    display: block;
+    font-size: 18px;
+    color: #555555;
+    &:hover {
+        background: #000;
+        color: #FFFFFF;
+    }
+    @include mobile {
+        font-size: 16px;
+        padding: 12px 15px;
+    }
+}
+.page-turn { 
+    padding: 11px 12px;
+    display: block;
+    background: #F2F2F2;
+    font-size: 19px;
+    color: #555555;
+    &:hover {
+        background: #000;
+        color: #FFFFFF;
+    }
+    @include mobile {
+        font-size: 16px;
+    }
+}
+

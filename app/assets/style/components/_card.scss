@@ -1,0 +1,22 @@
+//首頁
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: $spacer;
+    box-shadow: 0 2px 6px $light;
+    &-body {
+        padding: $spacer*4;
+    }
+    &-title {
+        margin-bottom: $spacer*2;
+    }
+    &-text {
+        margin-top: 0;
+    }
+    &-date {
+        position: absolute;
+        bottom: $spacer*4;
+        left: $spacer*4;
+    }
+}

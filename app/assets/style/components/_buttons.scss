@@ -1,0 +1,17 @@
+.shopBut {
+    display: block;
+    span {
+        padding: 6px 12px;
+    }
+}
+.sendBut {
+    width: 65.4%;
+    padding: $spacer*4 0;
+    cursor:pointer;
+    @include pad {
+        width: 58.33%;
+    }
+    @include mobile {
+        width: 100%;
+    }
+}

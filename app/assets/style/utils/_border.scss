@@ -1,0 +1,21 @@
+.border-bottom {
+    border-bottom: 1px solid $white;
+}
+.border-none {
+    border:  none;
+}
+.border-grey {
+    border: 1px solid $grey;
+}
+.border-bottom-danger-2 {
+    border-bottom: $spacer*2 solid $danger;
+}
+.border-left-2 {
+    border-left: $spacer*2 solid #9F1213;
+}
+.border-grey-100 {
+    border: 1px solid $grey-100;
+}
+.border-top-success {
+    border-top: 1px solid $success;
+}

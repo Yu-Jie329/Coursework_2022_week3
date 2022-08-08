@@ -1,0 +1,17 @@
+.hover-bigger {
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+.hover-fadeout {
+    &:hover {
+        opacity: 0.5;
+        color: $danger;
+        font-weight: bold;
+    }
+}
+.hover-color-warning {
+    &:hover {
+        color: $warning;
+    }
+}
