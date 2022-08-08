@@ -1,10 +1,29 @@
----
-title: 情人特別企劃
-layout: ./app/layout.ejs
-engine: ejs
-current: specialPlan
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>情人特別企劃</title>
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <nav class="bg-danger">
+    <div class="container navbar">
+      <h1 class="py-4"><a href="index.html">logo</a></h1>
+      <ul class="menu d-flex fs-7 fs-sm-10">
+        <li><a href="optical.html" class="text-white">系列鏡框</a></li>
+        <li><a href="store.html" class="text-white">門市據點</a></li>
+        <li><a href="blog.html" class="text-white">部落格</a></li>
+        <li><a href="q&a.html" class="text-white">常見問題</a></li>
+      </ul>
+      <a href="#" class="showmenu"><img src="./assets/images/baseline_menu_white_36dp.png" alt=""></a>
+    </div>
+  </nav>
+
+  
 <section class="bg-primary d-sm-none">
     <div class="container d-flex justify-content-between align-items-center">
         <ul class="d-flex">
@@ -94,3 +113,41 @@ current: specialPlan
         </ul>
     </div>
 </section>
+
+  <footer class="bg-danger text-white">
+    <div class="container">
+      <div class="d-flex justify-content-between pt-12 pb-8 pt-sm-6 pb-sm-6 border-bottom">
+        <div>
+          <ul class="d-flex d-sm-none mb-9 mb-md-8">
+            <li><a href="index.html" class="text-white mr-12 hover-color-warning">首頁</a></li>
+            <li><a href="optical.html" class="text-white mr-12 hover-color-warning">系列鏡框</a></li>
+            <li><a href="store.html" class="text-white mr-12 hover-color-warning">門市據點</a></li>
+            <li><a href="blog.html" class="text-white mr-12 hover-color-warning">部落格</a></li>
+            <li><a href="q&a.html" class="text-white hover-color-warning">常見問題</a></li>
+          </ul>
+          <ul>
+            <li class="d-flex align-items-center mb-2"><img src="./assets/images/baseline_phone_white_36dp.png" alt="電話icon" class="icon-9 icon-sm-4_5 mr-5 mr-sm-2"><a href="tel:+886-0800-000-000" class="text-white fs-4 fs-sm-10 hover-color-warning">0800-000-000</a></li>
+            <li class="d-flex align-items-center"><img src="./assets/images/baseline_local_post_office_white_36dp.png" alt="信箱icon" class="icon-9 icon-sm-4_5 mr-5 mr-sm-2"><a href="mailto:glasses@business.com" class="text-white fs-4 fs-sm-10 hover-color-warning">glasses@business.com</a></li>
+          </ul>
+        </div>
+        <ul class="d-flex">
+          <li class="mr-8 mr-md-4 mr-sm-2"><a href="#"><img src="./assets/images/ic-social-fb.png" alt="FB" class="icon-12 icon-sm-6 hover-bigger"></a></li>
+          <li class="mr-8 mr-md-4 mr-sm-2"><a href="#"><img src="./assets/images/ic_social_ig.png" alt="IG"class="icon-12 icon-sm-6 hover-bigger"></a></li>
+          <li><a href="#"><img src="./assets/images/ic_social_line.png" alt="Line" class="icon-12 icon-sm-6 hover-bigger"></a></li>
+        </ul>
+      </div>
+      <div class="d-flex justify-content-between d-sm-block pt-8 pb-8 pb-md-10 pt-sm-4 pb-sm-6">
+        <p class="mb-sm-2">Copyright © 2020 Glasses.All rights reserved.</p>
+        <ul class="d-flex d-sm-block">
+          <li class="mb-sm-2"><a href="#" class="text-white mr-12 hover-color-warning">隱私權政策</a></li>
+          <li><a href="#" class="text-white hover-color-warning">服務條款</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
